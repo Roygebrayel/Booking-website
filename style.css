@@ -1,0 +1,36 @@
+.logo {
+    position: absolute;
+    float: left;
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top:20px;
+    
+
+}
+.nav-style {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 100px;
+   
+
+}
+nav{
+    background-color:rgb(14, 2, 2);
+    text-align: center;
+    
+}
+.nav-style a {
+    
+    text-decoration: none;
+    color: aqua;
+    padding-left: 20px;
+    
+}
+.about-design{
+    position: absolute;
+    background-color: hsl(240, 100%, 50%);
+    border-radius: 50%;
+    
+    
+}
