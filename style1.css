@@ -56,3 +56,7 @@ header{
     padding: 30px 10%;
     background-color: #ecf0f1;
 }
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
