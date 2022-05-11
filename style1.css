@@ -1,11 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-body{
-    display: grid;
-    margin: 0;
-    font-size:  14px;
-    
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration:none;
 }
+ header {
+  width: 100%;
+  height: 70px;
+  background-color:rebeccapurple;
+}
+.logo{
+  height: 70px;
+}
+
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+
+li{
+display: inline-block;
+padding: 15px 30px;
+}
+
+.sublist{
+  
+  position:absolute ;
+}
+
+
+/*
 li,a , button {
 font-family: "Montserrat" sans-serif;
 font-weight: 500;
@@ -13,22 +41,8 @@ font-size: 16px;
 color: #ecf0f1;
 text-decoration: none;
 }
-header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #171818;
-}
+*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-  text-decoration: none;
-}
 footer{
   width: 100%;
   position: fixed;
