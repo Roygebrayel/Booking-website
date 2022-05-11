@@ -61,7 +61,7 @@ header{
     justify-content:space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #ecf0f1;
+    background-color: #171818;
 }
 .footer{
     display: -webkit-flex;
@@ -167,4 +167,25 @@ h2{
         font-size: 55px;
     }
 }
+
+ 
+ footer ul {
+    margin:0 auto;
+    
+ }
+ 
+ footer li {
+    display:inline-block;
+    list-style-type:none;
+    line-height:9px;
+    border-right:1px solid #354052;
+    padding:0 10px;
+ }
+ 
+ footer li a {
+    text-decoration:none;
+    color:#354052;
+    font-size:12px;
+ }
+ 
 
