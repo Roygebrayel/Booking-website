@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  
+
+}
 :root {
   --primColor: #dcdcdc;
   --secoColor: #555555;
@@ -17,8 +26,8 @@ summary {
   writing-mode: vertical-lr;
   text-align: center;
   padding: 12px 10px;
-  width: 23px;
-  height: 17px;
+  width: 40px;
+  height: 40px;
   background-color: var(--primColor);
   border: 2px solid var(--secoColor);
   border-radius: var(--cornerRad);
@@ -27,38 +36,30 @@ summary {
   user-select: none;
   outline: none;
   transition: transform 200ms ease-in-out 0s;
+  
 }
-summary::before,
-summary::after {
-  position: static;
-  top: 0;
-  left: 0;
-}
-summary::before {
-  content: "";
-}
-summary::after {
+summary::before{
+  position: absolute;
   content: "III";
-  letter-spacing: -1px;
+  color: #eb2f06;
+  left: 45px;
+  bottom: 590px;
+  transform: scale(2);
+  
+  
 }
-summary:hover {
-  transform: scale(1.1);
-}
+
+
+
 summary::marker {
   font-size: 0;
 }
-summary::-webkit-details-marker {
-  display: none;
-}
+
 details[open] .menu {
   animation-name: menuAnim;
 }
-details[open] summary::before {
-  content: "III";
-}
-details[open] summary::after {
-  content: "";
-}
+
+
 .menu {
   height: 0;
   width: fit-content;
@@ -110,10 +111,11 @@ details[open] summary::after {
 
 footer{
   width: 100%;
-  
   bottom: 0;
   left: 0;
   background: #111;
+  
+
 }
 footer .content{
   max-width: 1350px;
