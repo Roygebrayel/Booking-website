@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
  .logo{
-   width: 40px;
-   height: 40px;
+   width: 100px;
+   height: 100px;
+   
  }
 *{
   margin: 0;
@@ -24,9 +25,11 @@ body {
   font-size: 20px;
 }
 details {
+  float: right;
   margin: 40px;
 }
 summary {
+  float: right;
   writing-mode: vertical-lr;
   text-align: center;
   padding: 12px 10px;
@@ -43,11 +46,13 @@ summary {
   
 }
 summary::before{
+  float: right;
   position: absolute;
   content: "III";
   color: #eb2f06;
-  left: 45px;
-  bottom: 542px;
+  left: 1277px;
+
+  bottom: 533px;
   transform: scale(2);
   
   
@@ -65,6 +70,7 @@ details[open] .menu {
 
 
 .menu {
+  float: right;
   height: 0;
   width: fit-content;
   border-radius: var(--cornerRad);
