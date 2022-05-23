@@ -1014,3 +1014,23 @@ footer li a {
   color:#354052;
   font-size:12px;
 }
+/*about us table*/
+.about_talbe, th, td{
+  
+    border: 1px solid;
+  
+}
+.about_table {
+  width: 100%;
+}
+
+ .about_table ,th {
+  height: 70px;
+}
+.about_talbe ,td {
+  text-align: center;
+}
+.about_table ,th, td {
+  padding: 15px;
+  text-align: left;
+}
