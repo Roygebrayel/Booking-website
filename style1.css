@@ -6,6 +6,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+#clock{
+  color: #CC8C18;
+}
 
 
 body {
