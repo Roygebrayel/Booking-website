@@ -27,7 +27,8 @@ height: 60px;
 }
 
 .container {
-  max-width: 90%;
+  display: block;
+  width: 100%;
   margin: auto;
 }
 
@@ -47,6 +48,11 @@ a {
 .flex1 {
   display: flex;
   justify-content: space-between;
+}
+.flex2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 /*-------------head--------- */
@@ -246,7 +252,7 @@ header.sticky ul li a {
 }
 
 .home {
-  background-image: url("aaaaaaaa.png");
+  background-image: url("photos/aaaaaaaa.png");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -325,12 +331,17 @@ button span {
   padding-top: 20px;
 }
 
+
 .heading h2 {
   color: #24416B;
   font-size: 45px;
   font-family: serif;
   font-weight: bold;
   margin: 10px 0 20px 0;
+  
+}
+#as{
+  color: #CC8C18;
 }
 
 .left,
@@ -364,7 +375,7 @@ p {
 .about .right {
   position: relative;
 }
-
+/*
 .about .right::after {
   content: '';
   position: absolute;
@@ -375,14 +386,14 @@ p {
   height: 61vh;
   z-index: -1;
   margin: 50px;
-}
+}*/
 
 .about::after {
   content: '';
   position: absolute;
   top: -5%;
   left: 0;
-  background-image: url("../image/line1.png");
+  background-image: url("photos/hotel-room-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50px;
@@ -394,7 +405,6 @@ p {
   position: absolute;
   bottom: -5%;
   left: 0;
-  background-image: url("../image/line2.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50px;
@@ -404,7 +414,7 @@ p {
 /*------------about------------*/
 /*------------wrapper------------*/
 .wrapper {
-  background-image: url("../image/w.jpg");
+  background-image: url(photos/aera.jpg);
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
@@ -464,7 +474,7 @@ p {
 }
 
 /*------------wrapper------------*/
-/*------------wrapper2------------*/
+
 .wrapper2 {
   position: relative;
   text-align: center;
@@ -562,17 +572,17 @@ p {
   text-align: center;
   padding-top: 12%;
 }
-
+/*
 .background::after {
   position: absolute;
-  content: '';
+  
   top: 0;
   left: 0;
-  content: '';
-  background: rgba(0, 0, 0, 0.5);
+  content: "";
   height: 100%;
   width: 100%;
 }
+*/
 
 .timer.wrapper {
   background-image: url("../image/w2.jpg");
