@@ -428,7 +428,7 @@ p {
 }
 
 .wrapper .item {
-  background: white;
+  background: hsl(0, 0%, 100%);
   padding: 50px;
   margin-top: 15%;
   border: 30px solid #F3F3F3;
