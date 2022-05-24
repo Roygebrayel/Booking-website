@@ -161,7 +161,7 @@ header.sticky .sticky_logo {
 
 header.sticky {
   z-index: 9999;
-  position: fixed;
+  position:fixed;
   width: 100%;
   background: #313538;
   transition: 0.5s;
