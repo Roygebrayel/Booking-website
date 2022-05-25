@@ -360,8 +360,12 @@ button span {
 .left,
 .right {
   
-  width:50%;
+  width: 50%;
+
   
+}
+#ph{
+  width: 650px;
 }
 
 h3 {
