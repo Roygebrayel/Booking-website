@@ -18,8 +18,8 @@ function sub(){
     let con = alert ("the email has been send");
     return con;
 };
-function myFunction(name,year)
+function myFunction()
 {
 	
-alert(name + " is the richest person in history, born on " + year);
+alert( " your email has been send");
 }
