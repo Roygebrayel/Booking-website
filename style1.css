@@ -600,7 +600,7 @@ p {
 .timer.about::before {
   z-index: 1;
   bottom: 0%;
-  background-image: url("photos/line1.png");
+  background-image: url("photos/.png");
 }
 
 .timer h2,
@@ -837,6 +837,9 @@ p {
   opacity: 1;
   transition: 0.5s;
   cursor: pointer;
+}
+.body{
+  background-color: #18cc18;
 }
 
 /*------------gallary------------*/
