@@ -920,9 +920,8 @@ p {
   background: url(photos/clock_photo.jpg) no-repeat;
   /*setting our background image*/
   background-size: 100%;
-  width: 30px;
-  height: 30px;
-  float: right;
+  
+
 }
 
 #hour,
