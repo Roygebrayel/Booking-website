@@ -16,12 +16,6 @@ margin-bottom:30px;
   padding-top: 50px;
   padding-left: 20px;
 }
-/*
-.class {
-  background-color: #CC8C18;
-}
-*/
-
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -581,17 +575,7 @@ p {
   text-align: center;
   padding-top: 12%;
 }
-/*
-.background::after {
-  position: absolute;
-  
-  top: 0;
-  left: 0;
-  content: "";
-  height: 100%;
-  width: 100%;
-}
-*/
+
 
 .timer.wrapper {
   background-image: url("photos/Zahle\,Lebanon.jpg");
@@ -606,7 +590,7 @@ p {
 .timer.about::before {
   z-index: 1;
   bottom: 0%;
-  background-image: url("photos/.png");
+  background-image: url("photos/line1.png");
 }
 
 .timer h2,
@@ -844,83 +828,19 @@ p {
   transition: 0.5s;
   cursor: pointer;
 }
-.body{
-  background-color: #18cc18;
-}
+
 
 /*------------gallary------------*/
-/*------------blog------------*/
-.blog .grid {
-  grid-template-columns: repeat(3, 1fr);
-}
 
-.blog .box {
-  box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
-  transition: 0.5s;
-}
 
-.blog .box:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
 
-.blog .text {
-  padding: 20px;
-}
-
-.blog img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.blog .img {
-  position: relative;
-  overflow: hidden;
-}
-
-.blog span {
-  position: absolute;
-  top: -3%;
-  left: -12%;
-  z-index: 1;
-  color: white;
-  background: #CC8C18;
-  padding: 20px 50px;
-  transform: rotate(-45deg);
-  font-size: 14px;
-}
-
-.blog .box h3 {
-  font-size: 20px;
-}
-
-.blog .box i {
-  margin-right: 10px;
-  color: #CC8C18;
-}
-
-.blog .box i label {
-  color: black;
-}
-
-.blog .box h3 {
-  margin: 15px 0;
-}
-
-.blog a {
-  color: #CC8C18;
-  font-size: 15px;
-}
-
-/*------------blog------------*/
 /*------------map------------*/
+
 .map iframe {
   width: 100%;
 }
 
 /*------------map------------*/
-/*------------footer------------*/
 
 #clockContainer {
   position: relative;
@@ -931,6 +851,9 @@ p {
   background: url(photos/clock_photo.jpg) no-repeat;
   /*setting our background image*/
   background-size: 100%;
+  
+  
+  
   
 
 }
@@ -987,3 +910,4 @@ p {
   padding: 15px;
   text-align: left;
 }
+/*        */
