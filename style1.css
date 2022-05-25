@@ -6,9 +6,16 @@
   margin: 0;
   box-sizing: border-box;
 }
-#clock{
-  color: #CC8C18;
+.space{
+margin-bottom:20px;
 }
+#padding {
+  width: 700px;
+  height: 400px;
+  padding-right: 300px;
+}
+
+
 
 
 body {
@@ -378,18 +385,6 @@ p {
 .about .right {
   position: relative;
 }
-/*
-.about .right::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #CC8C18;
-  width: 92%;
-  height: 61vh;
-  z-index: -1;
-  margin: 50px;
-}*/
 
 .about::after {
   content: '';
@@ -624,6 +619,7 @@ p {
 }
 
 .clock p {
+
   color: white;
   font-size: 18px;
   letter-spacing: 3px;
@@ -1056,6 +1052,9 @@ footer li a {
   background: url(photos/clock_photo.jpg) no-repeat;
   /*setting our background image*/
   background-size: 100%;
+  width: 30px;
+  height: 30px;
+  float: right;
 }
 
 #hour,
