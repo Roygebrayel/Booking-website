@@ -588,19 +588,19 @@ p {
 */
 
 .timer.wrapper {
-  background-image: url("../image/w2.jpg");
+  background-image: url("photos/Zahle\,Lebanon.jpg");
 }
 
 .timer.about::after {
   z-index: 1;
   top: 0%;
-  background-image: url("../image/line2.png");
+  background-image: url("photos/line2.png");
 }
 
 .timer.about::before {
   z-index: 1;
   bottom: 0%;
-  background-image: url("../image/line1.png");
+  background-image: url("photos/line1.png");
 }
 
 .timer h2,
