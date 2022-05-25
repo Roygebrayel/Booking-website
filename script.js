@@ -14,10 +14,7 @@ function WriteToFile(passForm) {
     s.Close();
 };
 
-function sub(){
-    let con = alert ("the email has been send");
-    return con;
-};
+
 function myFunction()
 {
 	
