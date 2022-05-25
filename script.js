@@ -1,8 +1,5 @@
 
 
-
-
-
 function WriteToFile(passForm) {
  
     let fso = CreateObject("Scripting.FileSystemObject"); 
@@ -21,3 +18,8 @@ function sub(){
     let con = alert ("the email has been send");
     return con;
 };
+function myFunction(name,year)
+{
+	
+alert(name + " is the richest person in history, born on " + year);
+}
