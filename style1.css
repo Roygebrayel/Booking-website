@@ -98,9 +98,7 @@ header {
   align-items: center;
 }
 
-.hamburger {
-  display: none;
-}
+
 
 .bar {
   display: block;
@@ -137,70 +135,15 @@ header ul li a:hover {
   color: #000;
 }
 
-header .head_contact {
-  position: relative;
-}
 
-header .head_contact i {
-  position: absolute;
-  top: -29px;
-  left: -70%;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  background: white;
-  color: #CC8C18;
-  border-radius: 50%;
-  transform: rotate(-45deg);
-  border: 5px solid #ECE3D2;
-  font-size: 30px;
-}
 
-header .sticky_logo {
-  display: none;
-}
-
-header.sticky .sticky_logo {
-  display: block;
-  width: 50px;
-  height: 50px;
-  margin-top: -10px;
-}
-
-header.sticky {
-  z-index: 9999;
-  position:fixed;
-  width: 100%;
-  background: #313538;
-  transition: 0.5s;
-  height: 12vh;
-  transition: 0.5s;
-  top: 0;
-  padding: 30px 0 0 0;
-}
-
-header.sticky ul li a {
-  color: white;
-}
 
 @media only screen and (max-width:768px) {
 
   /*------------head------------*/
-  .header .head_contact,
-  .logo {
-    display: none;
-  }
-
+  
   /*------------head------------*/
-  header.sticky {
-    height: 8vh;
-  }
-
-  header.sticky .nav-menu {
-    background: #313538;
-  }
-
+ 
   .navbar {
     height: 5vh;
     justify-content: space-between;
@@ -209,7 +152,7 @@ header.sticky ul li a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 11rem;
+    top: 5rem;
     flex-direction: column;
     background: #CC8C18;
     width: 100%;
@@ -219,15 +162,12 @@ header.sticky ul li a {
     z-index: 99;
   }
 
-  header.sticky .nav-menu {
-    top: 5rem;
-  }
-
+  
   header ul li a {
     color: white;
   }
 
-  .nav-menu.active {
+  .nav-menu{
     left: 0;
   }
 
@@ -235,22 +175,7 @@ header.sticky ul li a {
     margin: 2.5rem 0;
   }
 
-  .hamburger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
+ 
 }
 
 /*------------home------------*/
@@ -265,7 +190,7 @@ header.sticky ul li a {
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
+ 
   background-size: cover;
   text-align: center;
 }
@@ -321,13 +246,7 @@ button span {
 
 /*------------home------------*/
 /*------------about------------*/
-.top {
-  margin-top: 80px;
-}
 
-.mtop {
-  margin-top: 40px;
-}
 
 .heading {
   text-align: center;
@@ -391,29 +310,6 @@ p {
   position: relative;
 }
 
-.about::after {
-  content: '';
-  position: absolute;
-  top: -5%;
-  left: 0;
-  background-image: url("photos/hotel-room-1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50px;
-  width: 100%;
-}
-
-.about::before {
-  content: '';
-  position: absolute;
-  bottom: -5%;
-  left: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50px;
-  width: 100%;
-}
-
 /*------------about------------*/
 /*------------wrapper------------*/
 .wrapper {
@@ -421,7 +317,7 @@ p {
   height: 80vh;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
+
   background-size: cover;
 }
 
@@ -482,10 +378,10 @@ p {
   position: relative;
   text-align: center;
 }
-
 .wrapper2 .grid {
   grid-template-columns: repeat(4, 1fr);
 }
+
 
 .wrapper2 .box {
   box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
