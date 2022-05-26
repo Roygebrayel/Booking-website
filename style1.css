@@ -421,30 +421,29 @@ p {
   color: white;
 }
 
-.wrapper2::after {
-  content: '';
-  position: absolute;
-  top: -22%;
-  left: 0;
-  background-image: url("../image/line1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 75px;
-  width: 100%;
-  z-index: 2;
-}
+
 
 /*------------wrapper2------------*/
+
+/*------------timer------------*/
+.timer {
+  position: relative;
+  text-align: center;
+  padding-top: 12%;
+}
+
+.timer.wrapper {
+  background-image: url("photos/Zahle\,Lebanon.jpg");
+}
+
+
+
+/*------------timer------------*/
+
 /*------------room------------*/
 .room {
   margin-bottom: 50px;
   position: relative;
-}
-
-.room.wrapper2::after {
-  display: none;
-  top: 105%;
-  background-image: url("../image/line2.png");
 }
 
 .grid2 {
@@ -453,11 +452,6 @@ p {
   grid-gap: 30px;
 }
 
-.room img {
-  width: 100%;
-  height: 100%;
-  margin-left: 20px;
-}
 
 .room h3 {
   margin: 0;
@@ -465,58 +459,7 @@ p {
 }
 
 /*------------room------------*/
-/*------------timer------------*/
-.timer {
-  position: relative;
-  text-align: center;
-  padding-top: 12%;
-}
 
-
-.timer.wrapper {
-  background-image: url("photos/Zahle\,Lebanon.jpg");
-}
-
-.timer.about::after {
-  z-index: 1;
-  top: 0%;
-  background-image: url("photos/line2.png");
-}
-
-.timer.about::before {
-  z-index: 1;
-  bottom: 0%;
-  background-image: url("photos/line1.png");
-}
-
-.timer h2,
-.timer h5 {
-  color: white;
-  text-align: center;
-}
-
-.timer .container {
-  position: relative;
-}
-
-.timer h2 span {
-  font-family: 'Great Vibes', cursive;
-}
-
-.clock span {
-  color: white;
-  font-size: 50px;
-  line-height: 50px;
-}
-
-.clock p {
-
-  color: white;
-  font-size: 18px;
-  letter-spacing: 3px;
-}
-
-/*------------timer------------*/
 /*------------offer------------*/
 .offer img {
   width: 100%;
@@ -585,71 +528,7 @@ p {
 }
 
 /*------------area------------*/
-/*------------offer2------------*/
-.offer2 .heading {
-  padding-top: 10%;
-  text-align: center;
-}
 
-.offer2 .heading h3 {
-  color: white;
-}
-
-.offer2.wrapper {
-  background-image: url("../image/w3.jpg");
-  height: 90vh;
-  background-attachment: scroll;
-}
-
-.offer2.timer {
-  padding-top: 0%;
-}
-
-.offer2.wrapper .container {
-  max-width: 85%;
-  margin: auto;
-}
-
-.offer2 .box {
-  background: white;
-  padding: 30px;
-  text-align: left;
-  transition: 0.5s;
-}
-
-.offer2 .box:hover {
-  transform: translateY(-10px);
-  cursor: pointer;
-}
-
-.offer2 .box h5 {
-  color: #CC8C18;
-  text-align: left;
-  font-weight: 400;
-  list-style: 5px;
-  word-spacing: 10px;
-}
-
-.offer2 .box h3 {
-  font-size: 20px;
-  margin: 10px 0 10px 0;
-}
-
-.offer2 label {
-  color: #CC8C18;
-}
-
-.offer2 .grid {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.offer2 .flex i {
-  margin: 0 20px 20px 0;
-  font-weight: 400;
-  color: #5c646e;
-}
-
-/*------------offer2------------*/
 /*------------customer------------*/
 .customer .mtop {
   padding: 30px;
@@ -691,13 +570,13 @@ p {
 }
 
 /*------------customer------------*/
-/*------------gallary------------*/
-.gallary .item {
+
+.item {
   position: relative;
   cursor: pointer;
 }
 
-.gallary .overlay i {
+ .overlay i {
   position: absolute;
   top: 40%;
   left: 40%;
@@ -707,7 +586,7 @@ p {
   color: white;
 }
 
-.gallary .overlay {
+ .overlay {
   position: absolute;
   content: '';
   background: rgba(204, 140, 24, 0.73);
@@ -718,15 +597,14 @@ p {
   opacity: 0;
 }
 
-.gallary .item:hover .overlay,
-.gallary .item:hover i {
+ .item:hover .overlay,
+ .item:hover i {
   opacity: 1;
   transition: 0.5s;
   cursor: pointer;
 }
 
 
-/*------------gallary------------*/
 
 
 
@@ -737,6 +615,8 @@ p {
 }
 
 /*------------map------------*/
+
+/*--------   clock-----------    */
 
 #clockContainer {
   position: relative;
@@ -753,6 +633,7 @@ p {
   
 
 }
+
 
 #hour,
 #minute,
@@ -786,24 +667,3 @@ p {
   left: 49.25%;
   opacity: 0.8;
 }
-/*about us table*/
-.about_talbe, th, td{
-  
-    border: 1px solid;
-  
-}
-.about_table {
-  width: 100%;
-}
-
- .about_table ,th {
-  height: 70px;
-}
-.about_talbe ,td {
-  text-align: center;
-}
-.about_table ,th, td {
-  padding: 15px;
-  text-align: left;
-}
-/*        */

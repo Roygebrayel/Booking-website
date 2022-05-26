@@ -18,6 +18,9 @@ function myFunction()
 	
 alert( " your email has been send");
 }
+
+
+
 setInterval(() => {
     d = new Date(); //object of date()
     hr = d.getHours();
